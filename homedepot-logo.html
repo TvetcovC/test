@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeDepot Logo</title>
+    <style>
+        /* color palette in HEX */
+        .dummy { 
+            color: #401D26; 
+            color: #07090D; 
+            color: #222C40; 
+            color: #A68C8A; 
+            color: #734D4D; 
+        }
+
+        body{
+            font-family: Arial;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+
+        }
+        #brand{
+            background-color: #222C40;
+            padding: 25px 15px 25px;
+        }
+        .H {
+            display: inline-block;
+            height: 72px;
+            width: 50px;
+            border-left: 6px solid #A68C8A;
+            border-right: 6px solid #A68C8A;
+        }
+        .H::before {
+            border-top: 6px solid #A68C8A;
+            content: ' ';
+            width: 45px;
+            position: absolute;
+            left: 27px;
+            top: 75px;
+        }
+        .H::after {
+            border-bottom: 1px solid #A68C8A;
+            content: ' ';
+            width: 97%;
+            position: absolute;
+            left: 15px;
+            top: 130px;
+        }
+        .D {
+            display: inline-block;
+            height: 60px;
+            width: 50px;
+            border: 6px solid #A68C8A;
+            border-top-right-radius: 25%;
+            border-bottom-right-radius: 25%;
+        }
+        .slogan {
+            color: #734D4D;
+            font-weight: 100;
+        }
+
+         
+    </style>
+</head>
+<body>
+
+
+    <header id="brand">
+        <div class="logo">
+            <h2>
+                <span class="H"><span class="line"></span></span>
+                <span class="D"><span class="line"></span></span>
+            </h2>
+        </div>
+        <h3 class="slogan">HomeDepot at your service!</h3>
+    </header>
+    
+    
+</body>
+</html> 
